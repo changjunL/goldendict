@@ -38,6 +38,7 @@
     <ProjectGuid>{C3D65E5B-B7EE-3F85-B73F-6D65D9C501A8}</ProjectGuid>
     <RootNamespace>GoldenDict</RootNamespace>
     <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -61,7 +62,7 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <PlatformToolSet>v110</PlatformToolSet>
+    <PlatformToolSet>v140</PlatformToolSet>
     <OutputDirectory>debug\</OutputDirectory>
     <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
     <CharacterSet>Unicode</CharacterSet>
@@ -965,7 +966,7 @@
     <QtTranslate Include="locale\sk_SK.ts" />
     <QtTranslate Include="locale\sq_AL.ts" />
     <QtTranslate Include="locale\sr_SR.ts" />
-	<QtTranslate Include="locale\sv_SE.ts" />
+    <QtTranslate Include="locale\sv_SE.ts" />
     <QtTranslate Include="locale\tg_TJ.ts" />
     <QtTranslate Include="locale\tk_TM.ts" />
     <QtTranslate Include="locale\tr_TR.ts" />
